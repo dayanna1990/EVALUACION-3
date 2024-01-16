@@ -1,0 +1,59 @@
+/* Estilo general del cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Estilo general para los formularios */
+form {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Estilos para los campos de entrada de tipo número y texto */
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilos para los botones */
+button,
+.menu-button {
+    max-width: 300px;
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 15px 20px; /* Relleno interno más generoso */
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+
+/* Estilo para cuando se pasa el ratón por encima del botón */
+button:hover,
+.menu-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para las etiquetas de los campos de formulario */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+.menu-button:first-child {
+    margin-top: 50px;
+}
+
